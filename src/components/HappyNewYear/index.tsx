@@ -1,4 +1,3 @@
-import React from "react";
 import "./HappyNewYear.scss";
 import SimpleSlider from "../Slider";
 const HappyNewYear = () => {

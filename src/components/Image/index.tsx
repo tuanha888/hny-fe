@@ -8,7 +8,7 @@ import {
 } from "../../redux/actions/comment-actions";
 import { IoSend } from "react-icons/io5";
 import "./Image.scss";
-import imageSrc from "../../assets/images/1.jpg";
+
 import { setLoading } from "../../redux/features/loadingSlice";
 interface ImageProps {
   imageId: string;
@@ -55,7 +55,7 @@ const Image: React.FC<ImageProps> = ({ imageId }) => {
         })
       );
       setLoading(false);
-      setContent((prev) => "");
+      setContent("");
     }
   };
   console.log(comments);

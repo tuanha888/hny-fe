@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { HOST_URL } from "./config";
-import { comments } from "../fake-api/comments-api";
+
 
 
 export const getComments = createAsyncThunk(

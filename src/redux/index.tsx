@@ -1,9 +1,8 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-import messageReducer from "./features/messageSlice";
+
 import commentReducer from "./features/commentSlice";
 import loadingReducer from "./features/loadingSlice";
 const rootReducers = combineReducers({
-  message: messageReducer,
   comment: commentReducer,
   loading: loadingReducer,
 });
