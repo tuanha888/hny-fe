@@ -1,0 +1,10 @@
+@import "../../index.scss";
+.new-year {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    font-family: $primary-font;
+    font-size: 6rem;
+    text-transform: uppercase;
+    text-align: center;
+}

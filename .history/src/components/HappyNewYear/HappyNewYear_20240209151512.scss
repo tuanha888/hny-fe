@@ -1,0 +1,30 @@
+@import "../../index.scss";
+.new-year {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    font-family: $primary-font;
+    font-size: 6rem;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    &-number {
+        color: $primary-color;
+    }
+    &-message {
+        background-color: #fff;
+        border-radius: .5rem;
+        padding: 2rem;
+        max-width: 60rem;
+        min-width: 50rem;
+        margin-top: 2rem;
+    }
+}

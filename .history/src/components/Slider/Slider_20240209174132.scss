@@ -1,0 +1,14 @@
+.slider {
+    &-container {
+        max-width: 40rem;
+        border-radius: 1rem;
+        margin-top: 2rem;
+    }
+}
+.slick {
+    &-arrow {
+        &:before {
+            font-size: 4rem !important;
+        }
+    }
+}
